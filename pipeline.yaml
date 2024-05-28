@@ -1,0 +1,6 @@
+tasks:
+- name: pipeline-task
+  taskSpec:
+    steps:
+    - image: busybox
+      script: echo "Hello World!"
